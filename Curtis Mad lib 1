@@ -1,0 +1,39 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+
+def print_hi(Curtis):
+    """
+
+    :type Curtis: object
+    """
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {Curtis}')  # Press Ctrl+F8 to toggle the breakpoint.
+
+
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('Curtis')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+
+youtuber = "Curtis Schutte"
+
+print("subscribe to " + youtuber)
+
+print("subscribe to {}".format(youtuber))
+
+print(f"subscribe to {youtuber}")
+
+adj = input("adjective: ")
+verb1 = input("verb: ")
+verb2 = input("verb: ")
+famous_person = input("famous person: ")
+
+mad_lib = f"Computer programming is so {adj}! It makes me so excited all the time because \
+I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}! "
+
+print(mad_lib)
